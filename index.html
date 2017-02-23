@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="ip2/css/bootstrap.css">
@@ -13,34 +13,30 @@
 </head>
 
 <body>
-  <header>
+    <header>
         <div class="container" id="landing" class="col-md-12">
             <div id="logo"><img id="logoBig" src="ip2/assets/logoBig.png" alt=""></div>
             <div id="slogan">
                 <h3>We Provide The Best Food </br >At The <strong>Right Price</strong>.</h3></div>
         </div>
-  </header>
+    </header>
+  <div class="row">
+        <table id = "happy-party" class="col-md-3">
+            <tr>
+                <td id="happy">Happy Hour</td>
+            </tr>
+            <tr>
+                <td style="background-color:#F15A29" id="party">Party Time</td>
+            </tr>
+        </table>
 
-    <div class="container">
-        <div class="row">
-            <!-- <div id="happy-hour" class="col-md-3">Happy Hour</div>
-            <div id="breakfast" class="meal col-md-3" rowspan="4">Breakfast</div>
-            <div id="lunch" class="meal col-md-3" rowspan="4">Lunch</div>
-            <div id="dinner" class="meal col-md-3" rowspan="4">Dinner</div>
-        </div> -->
-            <table>
-          <tr>
-              <div id="happy-hour" class="col-md-3">Happy Hour</div>
-              <div id="breakfast" class="meal col-md-3" rowspan="4">Breakfast</div>
-              <div id="lunch" class="meal col-md-3" rowspan="4">Lunch</div>
-              <div id="dinner" class="meal col-md-3" rowspan="4">Dinner</div>
-          </tr>
-          <tr>
-              <td id="party-time" class="col-md-3">Party Time</td>
-          </tr>
-          </table>
+        <div id = "breakfast" class="col-md-3"><p class="meal-labels">Breakfast</p>
         </div>
-    </div>
+        <div  id = "lunch" class="col-md-3"><p class="meal-labels">Lunch</p>
+        </div>
+        <div id = "dinner" class="col-md-3"><p class="meal-labels">Dinner</p>
+        </div>
+</div>
 
     <div class="container">
         <div class="row">
@@ -148,15 +144,21 @@
 
     <!-- Google Analytics -->
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-92394054-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+        ga('create', 'UA-92394054-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </body>
 
 </html>
