@@ -63,13 +63,13 @@
   justify-content: center;
   align-items: center;
 }
+#tab-menus{
+  background-color: white;
+}
 .tab-content p{
   color: #F15A29;
 }
-}
-#menu-bg{
-  background-color: white;
-}
+
 #fast-food{
   padding: 30px;
 }
@@ -161,7 +161,7 @@ h2 {
 #drinks-pics{
   border-color: white;
   border-style: solid;
-  box-shadow: 0px 0px 10px #000000;
+  box-shadow: 0px 0px 20px #000000;
   border-width: medium;
   padding: 20px;
   margin-bottom: 40px;
@@ -186,32 +186,7 @@ header{
 ul li {
   display: inline;
 }
-#food {
-  width: 100%;
-}
-/*Table css*/
-.tg  {
-  border-collapse:collapse;
-  border-spacing:0;
-}
-.tg td{
-  font-family:Arial, sans-serif;
-  font-size:14px;
-  border-style:none;
-  overflow:hidden;
-  word-break:normal;
-}
-.tg th{
-  font-family:Arial, sans-serif;
-  font-size:14px;
-  font-weight:normal;
-  border-style:none;
-  overflow:hidden;
-  word-break:normal;
-}
-.tg .tg-yw4l{
-  vertical-align:top
-}
+
 
 #breakfast,
 #dinner,
