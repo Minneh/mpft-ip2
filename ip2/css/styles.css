@@ -178,6 +178,8 @@ or {
   padding: 20px;
   margin-top: 50px;
   margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 #customers {
@@ -191,6 +193,6 @@ or {
 
 #about {
   padding-left: 50px;
-  flex-shrink: 2;
+  flex-shrink: 3;
   line-height: 2;
 }
