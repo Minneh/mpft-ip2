@@ -167,30 +167,30 @@ header{
 ul li {
   display: inline;
 }
+or {
+  color: #F15A29;
+}
+
 #main-section{
   display: flex;
-  flex-direction: row;
-  box-shadow: 0 0 25px 3px #aaa;
+  box-shadow: 0 0 20px 3px #aaa;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
 #customers {
-  padding-right: 30px;
+  padding-right: 50px;
   border-right: 2px solid #eee;
 }
 
 #customers li {
-  margin: 5px;
+  margin: 10px;
 }
 
 #about {
-  padding-left: 30px;
+  padding-left: 50px;
   flex-shrink: 2;
   line-height: 2;
-}
-or {
-  color: #F15A29;
 }
