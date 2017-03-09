@@ -1,34 +1,28 @@
 
-# ${1:Project Name}
+# Project Name: Anita's Kitchen
+
+# Project Description:
+
 This is a website showcasing Anita's Kitchen, one of the newest restaurants in town. The site shows what the restaurant has to offer as well as testimonies from its patrons.
 
-##Author:
+##A Created By:
 Minneh Mugo
 
 ## Link
-https://minneh.github.io/anita-kitchen/
+https://minneh.github.io/mpft-ip2/
 
-## Usage
-Scroll up and down through the page to view all aspects of the site.
+#Technologies Used:
+- HTML
+- CSS
+- JavaScript
+
+#Setup:
+- Open your preferred browser
+- Head to the url https://minneh.github.io/mpft-ip2/
+- Explore website!
 
 ## History
 Website created on 17th February 2017
 
 ## Credits
 Credits to Moringa School
-
-<tabTrigger>readme</tabTrigger>
-</snippet>
-=======
-# Independent Project
-
-## Instructions
-  1) Please fork the Moringa School **mpft1-ip** repo to your own account.
-
-  2) Clone **your forked repo** to your own machine.`
-
-  3) Complete the independent project.
-
-  4) Push your commits up to your forked repo.
-
-  5) Send the link pointing to your repo to your Technical mentor
