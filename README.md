@@ -1,18 +1,6 @@
-
-# Project Name: Anita's Kitchen
-This is a website showcasing Anita's Kitchen, one of the newest restaurants in town. The site shows what the restaurant has to offer as well as testimonies from its patrons.
-
-##Author:
-Minneh Mugo
-
-## Link
-https://minneh.github.io/anita-kitchen/
-
-## Usage
-Scroll up and down through the page to view all aspects of the site.
-
 # Project Name: Anita's Kitchen
 
+<<<<<<< HEAD
 # Project Description:
 
 This is a website showcasing Anita's Kitchen, one of the newest restaurants in town. The site shows what the restaurant has to offer as well as testimonies from its patrons.
