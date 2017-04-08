@@ -11,15 +11,17 @@
 #meals-header{
   padding-bottom: 50px;
 }
+/*Set height if happy-party section to 210 pixels*/
 #happy-party{
   height: 210px;
 }
+/*Set height if happy and party sections to half of entire section and center text*/
 #happy{
   height: 105px;
   text-align: center;
 }
 #party{
-  background-color: #F15A29;
+  background-color: #F15A29; /*set background color to orange*/
   height: 105px;
   text-align: center;
 }
@@ -33,6 +35,7 @@
 #dinner{
   background-image: url("../assets/foodtop/dinner.jpg");
 }
+
 #breakfast,
 #dinner,
 #lunch {
@@ -42,6 +45,7 @@
   text-align: center;
 }
 
+/*Hover effect on header images*/
 #breakfast:hover,
 #dinner:hover,
 #lunch:hover {
@@ -57,8 +61,10 @@
   color: black;
   opacity: 1;
 }
-.meal-labels{
+/*End of hover effect on header images*/
 
+/*Set position of breakfast, lunch and dinner labels to half-way down the rectangular section*/
+.meal-labels{
   padding-top: 105px;
 }
 
@@ -76,6 +82,8 @@
 #tab-menus{
   background-color: white;
 }
+
+/*Set background color to orange*/
 .tab-content p{
   color: #F15A29;
 }
@@ -90,7 +98,7 @@
   padding-left: 50px;
   padding-right: 50px;
 }
-
+/*Beginning of subscription section*/
 #subscribe{
   background-image: url("../assets/backgrounds/subscribe.jpg");
   padding-top: 40px;
@@ -112,6 +120,7 @@
   background-color: #F15A29;
   color: white;
 }
+/*End of subscription section*/
 
 footer{
   background-color: #F15A29;
@@ -155,6 +164,7 @@ h2 {
 .row{
   text-align: center;
 }
+
 header{
   padding-top: 50px;
   padding-bottom: 50px;
@@ -162,9 +172,14 @@ header{
   background-image: url("../assets/backgrounds/landing.jpg");
   text-align: center;
 }
+
+
+/*align list items side-by-side*/
 ul li {
   display: inline;
 }
+
+/*Custom tag to set background color to orange*/
 or {
   color: #F15A29;
 }
