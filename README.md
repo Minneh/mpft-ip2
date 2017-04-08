@@ -32,6 +32,6 @@ Credits to Moringa School
   3) Complete the independent project.
 
   4) Push your commits up to your forked repo.
-  
+
   5) Send the link pointing to your repo to your Technical mentor
 >>>>>>> ac730b90e3dee0b9a9f35ade040ab42571c036d4
